@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(162, 242, 162);
+}
+
+
+#container{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+#gameCell{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
